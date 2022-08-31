@@ -65,4 +65,3 @@ streamlit.write('The user entered ', add_my_fruit)
 
 #add row to PC_Rivery.Public.fruit_load_list
 my_cur.execute("insert into fruit_load_list values ('from Steamlit')")
-9'select * 
