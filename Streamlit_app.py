@@ -46,3 +46,6 @@ streamlit.dataframe(my_data_rows)
 #Newsection to add fruit to the list
 add_my_fruit = streamlit.text_input('What fruit would you like add?','Jackfruit')
 streamlit.write('The user entered ', add_my_fruit)
+
+#add row to PC_Rivery.Public.fruit_load_list
+my_cur.execute("insert into fruit_load_list values ('from Steamlit')")
